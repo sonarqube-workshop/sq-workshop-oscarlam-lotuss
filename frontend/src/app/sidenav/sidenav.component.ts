@@ -95,11 +95,11 @@ export class SidenavComponent implements OnInit {
   }
 
   goToProfilePage () {
-    window.location.replace(environment.hostServer + '/profile')
+    globalThis.location.replace(environment.hostServer + '/profile')
   }
 
   goToDataErasurePage () {
-    window.location.replace(environment.hostServer + '/dataerasure')
+    globalThis.location.replace(environment.hostServer + '/dataerasure')
   }
 
   // eslint-disable-next-line no-empty,@typescript-eslint/no-empty-function
